@@ -1,17 +1,19 @@
 <template>
   <div>
-    <MenuComponent/>
-    <Nuxt />
+      <h1>Error Page</h1>
   </div>
 </template>
 <script>
-  // import MenuComponent from "~/components/nav/MenuComponent.vue";
+
 export default{
-  // components:{ MenuComponent },
+  name:'error-page',
   data() {
     return{
       msg:'Layout'
     }
+  },
+  mounted() {
+    
   }
 }
 </script>
